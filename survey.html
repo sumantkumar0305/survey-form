@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey page</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body style="background-color: black;">
+    <div class="container">
+        <div class="heading">
+        <h1 id="heading">GreeksforGreeks Survey form</h1>
+    </div>
+    <div class="survey_form">
+        <form>
+            <div class="enter_Name">
+                <label for="name" class="Name_label">Name</label>
+                <input type="text" name="Name" placeholder="Enter your name" id="enter_Name">
+            </div>
+            <div class="enter_Email">
+                <label for="Email" class="Email_label">Email</label>
+                <input type="text" name="Email" placeholder="Enter your Emali" id="enter_Email">
+            </div>
+            <div class="enter_Age">
+                <label for="age" class="Age_label">Age</label>
+                <input type="text" name="age" placeholder="Enter your age" id="enter_Age">
+            </div>
+            <div class="option">
+                <label for="option" class="option_label">Which option best describes you?</label>
+                <select name="role" id="option">
+                    <option value="select any one">select any one</option>
+                    <option value="student">student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="professional">professional</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="recommend">
+                <label for="recommend" class="recommend_label">Would you recommend GreeksforGreeks to a friend?</label>
+                <label>
+                    <input type="radio" value="yes" id="recommend1">Yes
+                </label>
+                <label>
+                    <input type="radio" value="no" id="recommend2">No
+                </label>
+                <label>
+                    <input type="radio" value="Maybe" id="recommend3">Maybe
+                </label>
+            </div>
+            <div class="framework">
+                <label for="framework" class="framework_label">Languages and Framework known:</label>
+                <label>
+                    <input type="checkbox" value="C" id="framework1">C
+                </label>
+                <label>
+                    <input type="checkbox" value="C++" id="framework2">C++
+                </label>
+                <label>
+                    <input type="checkbox" value="C#" id="framework3">C#
+                </label>
+                <label>
+                    <input type="checkbox" value="java" id="framework4">Java
+                </label>
+                <label>
+                    <input type="checkbox" value="python" id="framework5">Python
+                </label>
+                <label>
+                    <input type="checkbox" value="JavaScript" id="framework6">JavaScript
+                </label>
+                <label>
+                    <input type="checkbox" value="React" id="framework7">React
+                </label>
+                <label>
+                    <input type="checkbox" value="Angular" id="framework8">Angular
+                </label>
+                <label>
+                    <input type="checkbox" value="Django" id="framework9">Django
+                </label>
+                <label>
+                    <input type="checkbox" value="Spring" id="framework10">Spring
+                </label>
+            </div>
+            <div class="comment">
+                <label for="comment" class="comment_label">Any comment or suggestion</label>
+                <textarea name="Feedback" id="comment">Everytinng perfect</textarea>
+            </div>
+            <div class="submit">
+                <button type="submit" id="submit">submit</button>
+            </div>
+        </form>
+    </div>
+    </div>     
+</body>
+</html>
